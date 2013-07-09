@@ -1,0 +1,35 @@
+- form_for @user do |f|
+  = f.error_messages :header_message => "Unable to process your registration!"
+  %fieldset
+    %legend
+      Required Details
+    %div
+      = f.label :username
+      = f.text_field :username
+    %div
+      = f.label :password
+      = f.password_field :password
+    %div
+      = f.label :password_confirmation
+      = f.password_field :password_confirmation
+    - unless @roles.empty?
+      %div
+        = f.label :roles
+        - @roles.each do |role|
+          %span{ :class => "check-bx" }
+            = check_box_tag "user[role_ids][]", role.id, @user.roles.include?(role)
+            = role.name
+  %fieldset
+    %legend
+      Additional Details (Optional)
+    %div
+      = f.label :alias
+      = f.text_field :alias
+  
+  %div
+    %label
+      &nbsp;
+    - if ["new", "create"].include?(controller.action_name) 
+      = f.submit "Register", :id => "formbutton"
+    - elsif ["edit", "update"].include?(controller.action_name) 
+      = f.submit "Update Details", :id => "formbutton"

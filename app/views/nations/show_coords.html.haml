@@ -1,0 +1,87 @@
+- content_for :head do
+  = GMap.header
+  = @map.to_html
+  
+- title "#{@nation.name} Nation"
+%h1
+  = "#{@nation.name} Nation Details"
+  
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Nation Name
+      %td
+        = h @nation.name
+    %tr
+      %td.main-column
+        CN ID
+      %td
+        = h @nation.cn_id  
+    %tr
+      %td.main-column
+        Ruler
+      %td
+        = h @nation.ruler
+    %tr
+      %td.main-column
+        Alliance
+      %td
+        = h @nation.alliance
+    %tr
+      %td.main-column
+        NPO ID (if NPO)
+      %td
+        = h @nation.npo_id
+    %tr
+      %td.main-column
+        Comment
+      %td
+        - if @nation.not_moving == true
+          This Nation cannot move its current coordinates.
+        - else
+          OK
+   
+   
+= @map.div(:width => 520, :height => 450)
+   
+- if @nation.latest_ranking
+  %h2
+    Latest Ranking  
+  .data-table
+    %table
+      %tr
+        %td.main-column
+          Rank
+        %td
+          = h @nation.latest_ranking.rank
+      %tr
+        %td.main-column
+          Team Color
+        %td
+          = image_tag("nation_colors/#{@nation.latest_ranking.color}.png", :title => @nation.latest_ranking.color) 
+      %tr
+        %td.main-column
+          Strength
+        %td
+          = h @nation.latest_ranking.strength if @nation.latest_ranking
+      %tr
+        %td.main-column
+          Current Latitude (longitude in CN implementation)
+        %td
+          = h @nation.latest_ranking.latitude if @nation.latest_ranking
+      %tr
+        %td.main-column
+          Current Longitude (latitude in CN implementation)
+        %td
+          = h @nation.latest_ranking.longitude if @nation.latest_ranking
+      %tr
+        %td.main-column
+          Expected Latitude
+        %td
+          = h @nation.master_coordinate.latitude if @nation.master_coordinate
+      %tr
+        %td.main-column
+          Expected Longitude
+        %td
+          = h @nation.master_coordinate.longitude if @nation.master_coordinate

@@ -1,0 +1,12 @@
+- title "Coordinate Group"
+
+%p
+  %strong Name:
+  =h @coordinate_group.name
+
+%p
+  = link_to "Edit", edit_coordinate_group_path(@coordinate_group)
+  |
+  = link_to "Destroy", @coordinate_group, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", coordinate_groups_path

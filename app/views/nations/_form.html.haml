@@ -1,0 +1,12 @@
+- form_for @nation do |f|
+  = f.error_messages
+  %div
+    = f.label :npo_id, "NPO ID (if NPO)"
+    = f.text_field :npo_id
+  %div
+    = f.label :not_moving, "Not Moving?"
+    = f.check_box :not_moving, :class => "check-bxB"
+  %div
+    %label
+      &nbsp;
+    = f.submit "Submit", :id => "formbutton"

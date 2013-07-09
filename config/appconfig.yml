@@ -1,0 +1,35 @@
+common:
+  pagination_limit: 20
+  nation_url: "http://www.cybernations.net/nation_drill_display.asp?Nation_ID="
+  message_url: "http://www.cybernations.net/send_message.asp?Nation_ID="
+  npo_message_url: "http://pacificorder.net/forum/index.php?app=members&module=messaging&section=send&do=form&fromMemberID="
+  coords_regex: createMarker\(new\s+GPoint\(\s?-?[0-9]*\.?[0-9]*,-?[0-9]*\.?[0-9]+
+  coords_regex2: createMarker\(new\s+GPoint\(\s?--?[0-9]*\.?[0-9]*,-?[0-9]*\.?[0-9]+
+  coords_stripper: createMarker\(new\s+GPoint\(
+  coords_stripper2: createMarker\(new\s+GPoint\(\s?-?
+  center_regex: map\.centerAndZoom\(new\s+GPoint\(\s?-?[0-9]*\.?[0-9]*,\s+-?[0-9]*\.?[0-9]+
+  center_stripper: map\.centerAndZoom\(new\s+GPoint\(
+  name_regex: Nation\sName:\s.+<\/a>
+  strength_regex: Strength:\s[0-9,\.]+
+  nation_id_regex: Nation_ID=[0-9]+
+  
+  single_coords_regex: GMarker\(new\s+GLatLng\(\s?-?[0-9]*\.?[0-9]*,-?[0-9]*\.?[0-9]+
+  single_coords_regex2: GMarker\(new\s+GLatLng\(\s?--?[0-9]*\.?[0-9]*,-?[0-9]*\.?[0-9]+
+  single_coords_stripper: GMarker\(new\s+GLatLng\(
+  single_coords_stripper2: GMarker\(new\s+GLatLng\(\s?-?
+  single_name_regex: Nation\sName:\s.+<\/a>
+  single_name_stripper: Nation\sName:\s
+  single_ruler_regex: Ruler:\s.+<br>Government
+  single_ruler_stripper: Ruler:\s
+  
+  # Star Design
+  n_point:  [80.78, 12.04]
+  nw_join:  [46.38, -15.91]
+  nw_point: [46.38, -116.72]
+  sw_join:  [-4.32, -33.84]
+  sw_point: [-69.26, -66.09]
+  s_join:   [-33.94, 12.04]
+  se_point: [-69.26, 91.05]
+  se_join:  [-4.32, 60.21]
+  ne_point: [46.38, 142.47]
+  ne_join:  [46.38, 38.85]

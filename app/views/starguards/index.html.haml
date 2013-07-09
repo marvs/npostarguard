@@ -1,0 +1,59 @@
+%h1
+  Star Guard Top 100 Lists
+
+- form_for @search do |f|
+  %fieldset
+    %legend
+      Search Top 100 List
+    %div
+      = f.label "Alliance Name", "Alliance Name"
+      = f.text_field :alliance_like
+    %div
+      = f.label "User ID", "Prepared By"
+      = f.collection_select :user_id_equals, @users, :id, :username, :include_blank => "All"
+    %div
+      %label 
+        &nbsp;
+      = f.submit "Search", :id => "formbutton"
+      = link_to "Clear", starguards_path    
+  
+.index-table
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Date Prepared
+        %th{ :scope => "col" } 
+          Prepared By
+        %th{ :scope => "col" } 
+          Alliance
+        %th{ :scope => "col" } 
+          Notes
+        %th{ :scope => "col", :colspan => 2 }
+          Actions
+    %tbody
+      - if @starguards.empty?
+        %tr
+          %td{ :colspan => 6 }
+            There are no Master Lists found. Create a new Master List on "Scan Alliance Map"
+      - else
+        - @starguards.each do |list|
+          - tr_class = "odd" if @starguards.index(list).odd?
+          %tr{ :class => tr_class }
+            %td
+              = h list.created_at.to_s
+            %td
+              = h list.user.username
+            %td
+              = h list.alliance
+            %td
+              = h list.notes
+            %td
+              - if permitted_to?( :show, :starguards )
+                = link_to image_tag("icons/world.png", :title => "View List"), list
+            %td
+              - if permitted_to?( :destroy, :starguards )
+                = link_to image_tag("icons/delete.png", :title => "Delete this List"), list, :confirm => 'Are you sure you want to delete this Master List?', :method => :delete
+
+.digg_pagination
+  = will_paginate @starguards

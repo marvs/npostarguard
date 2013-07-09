@@ -1,0 +1,27 @@
+- title "Starguard Ranking"
+
+%p
+  %strong Nation:
+  =h @starguard_ranking.nation_id
+%p
+  %strong Starguard:
+  =h @starguard_ranking.starguard_id
+%p
+  %strong Rank:
+  =h @starguard_ranking.rank
+%p
+  %strong Color:
+  =h @starguard_ranking.color
+%p
+  %strong Latitude:
+  =h @starguard_ranking.latitude
+%p
+  %strong Longitude:
+  =h @starguard_ranking.longitude
+
+%p
+  = link_to "Edit", edit_starguard_ranking_path(@starguard_ranking)
+  |
+  = link_to "Destroy", @starguard_ranking, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", starguard_rankings_path

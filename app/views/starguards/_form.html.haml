@@ -1,0 +1,6 @@
+- form_for @starguard do |f|
+  = f.error_messages
+  %p
+    = f.hidden_field :user_id, :value => current_user.id
+  %p
+    = f.submit

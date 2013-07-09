@@ -1,0 +1,23 @@
+- title "Starguard Rankings"
+
+%table
+  %tr
+    %th Nation
+    %th Starguard
+    %th Rank
+    %th Color
+    %th Latitude
+    %th Longitude
+  - for starguard_ranking in @starguard_rankings
+    %tr
+      %td= h starguard_ranking.nation_id
+      %td= h starguard_ranking.starguard_id
+      %td= h starguard_ranking.rank
+      %td= h starguard_ranking.color
+      %td= h starguard_ranking.latitude
+      %td= h starguard_ranking.longitude
+      %td= link_to 'Show', starguard_ranking
+      %td= link_to 'Edit', edit_starguard_ranking_path(starguard_ranking)
+      %td= link_to 'Destroy', starguard_ranking, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New Starguard Ranking", new_starguard_ranking_path

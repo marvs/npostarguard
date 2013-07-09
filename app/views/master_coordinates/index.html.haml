@@ -1,0 +1,48 @@
+- title "Master Coordinates"
+%h1
+  Master Coordinates
+%h3
+  This is where you set the expected coordinates for each rank.
+  
+.index-table
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          ID
+        %th{ :scope => "col" } 
+          Coordinate Group
+        %th{ :scope => "col" }
+          Assigned To  
+        %th{ :scope => "col" } 
+          Latitude
+        %th{ :scope => "col" } 
+          Longitude
+        %th{ :scope => "col" } 
+          Updated By
+        %th{ :scope => "col"}
+          Actions
+    %tbody
+      - if @master_coordinates.empty?
+        %tr
+          %td{ :colspan => 6 }
+            There are no Master Coordinates found
+      - else
+        - @master_coordinates.each do |master_coordinate|
+          - tr_class = "odd" if @master_coordinates.index(master_coordinate).odd?
+          %tr{ :class => tr_class }
+            %td
+              %strong
+                = h master_coordinate.rank
+            %td
+              - if master_coordinate.coordinate_group
+                = h master_coordinate.coordinate_group.name
+            %td
+              - if master_coordinate.nation
+                %strong
+                  = h master_coordinate.nation.name  
+            %td= h master_coordinate.latitude
+            %td= h master_coordinate.longitude
+            %td= h master_coordinate.updated_by.username if master_coordinate.updated_by
+            - if permitted_to?(:edit)
+              %td= link_to image_tag("icons/edit.png", :title => 'Edit Details'), edit_master_coordinate_path(master_coordinate)

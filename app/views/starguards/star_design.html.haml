@@ -1,0 +1,96 @@
+- content_for :head do
+  = GMap.header
+  = @map.to_html
+- title "Design Franco's Star!"
+%h1
+  Design Franco's Star!
+%h3
+  Current Star Design by Walt Schmidt
+= @map.div(:width => 520, :height => 450)
+   
+%br/
+%h2
+  Input Coordinates (latitude/longitude)
+- form_for :coords do |f|
+  %div
+    = f.label :n_point, "North Point"
+    = f.text_field :n_point_lat, :style => "width:100px;font-weight:bold", :value => @n_point[0]
+    = f.text_field :n_point_long, :style => "width:100px;font-weight:bold", :value => @n_point[1]
+  %div
+    = f.label :nw_join, "North-West Join"
+    = f.text_field :nw_join_lat, :style => "width:100px;font-weight:bold", :value => @nw_join[0]
+    = f.text_field :nw_join_long, :style => "width:100px;font-weight:bold", :value => @nw_join[1]
+  %div
+    = f.label :nw_point, "North-West Point"
+    = f.text_field :nw_point_lat, :style => "width:100px;font-weight:bold", :value => @nw_point[0]
+    = f.text_field :nw_point_long, :style => "width:100px;font-weight:bold", :value => @nw_point[1]
+  %div
+    = f.label :sw_join, "South-West Join"
+    = f.text_field :sw_join_lat, :style => "width:100px;font-weight:bold", :value => @sw_join[0]
+    = f.text_field :sw_join_long, :style => "width:100px;font-weight:bold", :value => @sw_join[1]
+  %div
+    = f.label :sw_point, "South-West Point"
+    = f.text_field :sw_point_lat, :style => "width:100px;font-weight:bold", :value => @sw_point[0]
+    = f.text_field :sw_point_long, :style => "width:100px;font-weight:bold", :value => @sw_point[1]
+  %div
+    = f.label :s_join, "South Join"
+    = f.text_field :s_join_lat, :style => "width:100px;font-weight:bold", :value => @s_join[0]
+    = f.text_field :s_join_long, :style => "width:100px;font-weight:bold", :value => @s_join[1]
+  %div
+    = f.label :se_point, "South-East Point"
+    = f.text_field :se_point_lat, :style => "width:100px;font-weight:bold", :value => @se_point[0]
+    = f.text_field :se_point_long, :style => "width:100px;font-weight:bold", :value => @se_point[1]
+  %div
+    = f.label :se_join, "South-East Join"
+    = f.text_field :se_join_lat, :style => "width:100px;font-weight:bold", :value => @se_join[0]
+    = f.text_field :se_join_long, :style => "width:100px;font-weight:bold", :value => @se_join[1]
+  %div
+    = f.label :ne_point, "North-East Point"
+    = f.text_field :ne_point_lat, :style => "width:100px;font-weight:bold", :value => @ne_point[0]
+    = f.text_field :ne_point_long, :style => "width:100px;font-weight:bold", :value => @ne_point[1]
+  %div
+    = f.label :ne_join, "North-East Join"
+    = f.text_field :ne_join_lat, :style => "width:100px;font-weight:bold", :value => @ne_join[0]
+    = f.text_field :ne_join_long, :style => "width:100px;font-weight:bold", :value => @ne_join[1]
+  %div
+    %label
+      &nbsp;
+    = f.submit "See What It Looks Like!", :id => "formbutton"
+    = link_to "Reset", star_design_starguards_path
+
+%h2
+  Generate the Points
+- form_for :coords, :url => star_points_starguards_path do |s|
+  = s.hidden_field :n_point_lat,  :value => @n_point[0]
+  = s.hidden_field :n_point_long,  :value => @n_point[1]
+  = s.hidden_field :nw_join_lat,  :value => @nw_join[0]
+  = s.hidden_field :nw_join_long,  :value => @nw_join[1]
+  = s.hidden_field :nw_point_lat,  :value => @nw_point[0]
+  = s.hidden_field :nw_point_long,  :value => @nw_point[1]
+  = s.hidden_field :sw_join_lat,  :value => @sw_join[0]
+  = s.hidden_field :sw_join_long,  :value => @sw_join[1]
+  = s.hidden_field :sw_point_lat,  :value => @sw_point[0]
+  = s.hidden_field :sw_point_long,  :value => @sw_point[1]
+  = s.hidden_field :s_join_lat,  :value => @s_join[0]
+  = s.hidden_field :s_join_long,  :value => @s_join[1]
+  = s.hidden_field :se_point_lat,  :value => @se_point[0]
+  = s.hidden_field :se_point_long,  :value => @se_point[1]
+  = s.hidden_field :se_join_lat,  :value => @se_join[0]
+  = s.hidden_field :se_join_long,  :value => @se_join[1]
+  = s.hidden_field :ne_point_lat,  :value => @ne_point[0]
+  = s.hidden_field :ne_point_long,  :value => @ne_point[1]
+  = s.hidden_field :ne_join_lat,  :value => @ne_join[0]
+  = s.hidden_field :ne_join_long,  :value => @ne_join[1]  
+  %div
+    %label
+      &nbsp;
+    = s.submit "Generate the Points for:", :id => "formbutton"
+    = s.select :total_points, @points_list
+    
+    
+%h2
+  Forum Code
+%h3
+  Copy and paste the forum code below to show your designed coordinates
+= text_area_tag "forumcode", @forum_code, :disabled => false, :style => "width:500px; height:200px;"
+    

@@ -1,0 +1,29 @@
+%h1
+  Scan Alliance Map
+  
+%h2
+  Instructions on how to scan:
+%ol
+  %li
+    Go to the Alliance Map in CyberNations. For the New Pacific Order, this is located
+    = link_to "HERE", "http://www.cybernations.net/allNations_display_map_alliances.asp?Alliance=New%20Pacific%20Order", :target => "_blank"
+  %li  
+    In your browser, select "View" in the menu and press "View Source" or "Source" to view the HTML. For Firefox, you can press CTRL+U to view the HTML source.
+  %li
+    Press CTRL+A (Select All) and then CTRL+C (Copy) to copy the entire HTML source.
+  %li
+    Put your cursor inside the text box below. Press CTRL+V (Paste) to paste the HTML source in the text box.
+  %li
+    Press "Scan Map"
+    
+- form_for :map_scan, :url => preview_master_list_starguards_path do |f|
+  %fieldset
+    %legend Paste the HTML code here:
+    %div
+      = f.label :html_input
+      = f.text_area :html_input
+      = f.hidden_field :user_id, :value => current_user.id
+    %div
+      %label
+        &nbsp;
+      = f.submit "Scan Map", :id => "formbutton"

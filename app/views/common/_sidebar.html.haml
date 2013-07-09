@@ -1,0 +1,35 @@
+%ul
+  - if in_main_menu?("starguards")
+    %li
+      = image_tag("npo/starguard.png", :title => "New Pacific Order Star Guard")
+      %p
+        Welcome to the NPO Star Guard! Here you can manage the top 100 nations' coordinates.
+    %li
+      %h2
+        Tasks
+      %ul
+        - if permitted_to?( :scan_alliance_map, :starguards )
+          %li
+            = link_to "Scan Alliance Map", scan_alliance_map_starguards_path
+        - if permitted_to?( :index, :starguards )
+          %li
+            = link_to "Top 100 Lists", starguards_path
+        - if permitted_to?( :star_design, :starguards )
+          %li
+            = link_to "Design Franco's Star", star_design_starguards_path
+    - if permitted_to?( :index, :master_coordinates )
+      %li
+        %h2
+          Configure
+        %ul
+          %li
+            = link_to "Configure Master Coordinates", master_coordinates_path
+          - if current_user and current_user.admin?
+            %li
+              = link_to "Coordinate Groups", coordinate_groups_path
+            
+  - if in_main_menu?("nations")
+    %li
+      = image_tag("npo/starguard.png", :title => "New Pacific Order Star Guard")
+      %p
+        Welcome to the NPO Star Guard! Here you can manage the listed nation's details.

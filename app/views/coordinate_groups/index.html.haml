@@ -1,0 +1,29 @@
+- title "Coordinate Groups"
+%h1
+  Coordinate Groups
+  
+  
+.index-table
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Name
+        %th{ :scope => "col", :colspan => 2}
+          Actions
+    %tbody
+      - if @coordinate_groups.empty?
+        %tr
+          %td{ :colspan => 2 }
+            There are no Coordinate Groups found
+      - else
+        - @coordinate_groups.each do |coordinate_group|
+          - tr_class = "odd" if @coordinate_groups.index(coordinate_group).odd?
+          %tr{ :class => tr_class }
+            %td
+              = h coordinate_group.name  
+            - if permitted_to?(:edit)
+              %td= link_to image_tag("icons/edit.png", :title => 'Edit Details'), edit_coordinate_group_path(coordinate_group)  
+            - if permitted_to?(:destroy)
+              %td= link_to image_tag("icons/delete.png"), coordinate_group, :confirm => 'Are you sure?', :method => :delete
+  

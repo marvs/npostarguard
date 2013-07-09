@@ -1,0 +1,50 @@
+!!! Strict
+%html{html_attrs}
+
+  %head
+    %title
+      = h("#{yield(:title)} NPO Star Guard" || "NPO Star Guard")
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
+    %meta{:name => "keywords", :content => ""}
+    %meta{:name => "description", :content => ""}
+    = stylesheet_link_tag 'custom'
+    = stylesheet_link_tag 'calendar_date_select/red.css'
+    = stylesheet_link_tag 'pagination'
+    = javascript_include_tag :defaults
+    = javascript_include_tag 'calendar_date_select/calendar_date_select.js'
+    = yield(:head)
+
+  %body
+    #wrapper
+      #logo_pt
+        %p
+          NPO Star Guard Web Tool
+      -##logo
+      -#  %h1
+      -#    PhoenixTechnica: Starguard Tool
+      -#  %p
+      -#    %em
+      -#      Hosted under phoenixtechnica.com
+      -#%hr
+      
+      #header
+        = render :partial => "common/header"
+        
+    #page
+      #page-bgtop
+        #content
+          - flash.each do |name, msg|
+            - if flash[name]
+              = content_tag :div, msg, :id => "flash_#{name}"
+          = yield
+  
+        #sidebar
+          = render :partial => "common/sidebar"
+        
+        %div{:style => "clear:both;"}
+          &nbsp;
+	
+    #footer-bgcontent
+      #footer
+        %p
+          Copyright &copy; 2011 Tasuki/New Pacific Order. All rights reserved. Base CSS from freecsstemplates.org

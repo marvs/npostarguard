@@ -1,0 +1,29 @@
+- title "Edit Nation Details"
+%h1
+  Edit Nation Details:
+  = @nation.name
+  
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Nation Name
+      %td
+        = h @nation.name
+    %tr
+      %td.main-column
+        CN ID
+      %td
+        = h @nation.cn_id  
+    %tr
+      %td.main-column
+        Ruler
+      %td
+        = h @nation.ruler
+    %tr
+      %td.main-column
+        Alliance
+      %td
+        = h @nation.alliance
+        
+= render :partial => 'form'

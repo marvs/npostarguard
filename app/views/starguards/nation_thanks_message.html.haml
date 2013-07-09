@@ -1,0 +1,36 @@
+- title "#{@nation.name} Nation Message"
+%h1
+  = "#{@nation.name} Star Guard Thank You Message"
+  
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Nation Name
+      %td
+        = h @nation.name
+    %tr
+      %td.main-column
+        CN ID
+      %td
+        = h @nation.cn_id  
+    %tr
+      %td.main-column
+        Ruler
+      %td
+        = link_to h(@nation.ruler), "#{AppConfig.message_url}#{@nation.cn_id}", :target => "_blank"
+    %tr
+      %td.main-column
+        Alliance
+      %td
+        = h @nation.alliance
+    %tr
+      %td.main-column
+        NPO ID (if NPO)
+      %td
+        = h @nation.npo_id
+    %tr
+      %td.main-column
+        Message
+      %td
+        = @message

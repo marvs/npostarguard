@@ -1,0 +1,61 @@
+- title "#{@user.username}'s Profile"
+%h1
+  User Profile
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Username
+      %td
+        = h @user.username
+    %tr
+      %td.main-column
+        Alias
+      %td
+        = h @user.alias
+    %tr
+      %td.main-column
+        Designations
+      %td
+        - @user.roles.each do |role|
+          = h role.name
+          %br/
+
+- if current_user.admin?
+  %h2
+    Admin Details
+  .data-table
+    %table
+      %tr
+        %td.main-column
+          Login Count
+        %td
+          = h @user.login_count
+      %tr
+        %td.main-column
+          Last Request At
+        %td
+          = h @user.last_request_at
+      %tr
+        %td.main-column
+          Last Login At
+        %td
+          = h @user.last_login_at
+      %tr
+        %td.main-column
+          Current Login At
+        %td
+          = h @user.current_login_at
+      %tr
+        %td.main-column
+          Last Login IP
+        %td
+          = h @user.last_login_ip
+      %tr
+        %td.main-column
+          Current Login IP
+        %td
+          = h @user.current_login_ip
+
+- if permitted_to?( :index, :users )
+  = link_to "User List", users_path

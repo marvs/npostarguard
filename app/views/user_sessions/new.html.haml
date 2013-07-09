@@ -1,0 +1,19 @@
+- title "Log-In"
+
+%h1
+  Log-In
+- form_for @user_session do |f|
+  = f.error_messages :header_message => "Uh-oh. We cannot log you in because...", :message => ""
+  %fieldset
+    %legend
+      Please enter your login information:
+    %div
+      = f.label :username
+      = f.text_field :username
+    %div
+      = f.label :password
+      = f.password_field :password
+    %div
+      %label
+        &nbsp;
+      = f.submit "Log In", :id => "formbutton"

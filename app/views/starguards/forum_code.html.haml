@@ -1,0 +1,50 @@
+- title "Top 100 List"
+%h1
+  Top 100 List Forum Code
+
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Alliance Name
+      %td
+        = h @starguard.alliance
+    %tr
+      %td.main-column
+        Prepared By
+      %td
+        = link_to h(@starguard.user.username), @starguard.user
+    %tr
+      %td.main-column
+        Date Prepared (UTC)
+      %td
+        = h @starguard.created_at.to_s(:long)
+    %tr
+      %td.main-column
+        Google Map Center Point Latitude
+      %td
+        = h @starguard.center_latitude
+    %tr
+      %td.main-column
+        Google Map Center Point Longitude
+      %td
+        = h @starguard.center_longitude
+    %tr
+      %td.main-column
+        Nation Count
+      %td
+        = h @rankings.count
+    
+%h2
+  Instructions:
+%ol
+  %li
+    Put the cursor in the text area below and press CTRL+A (or Select All)
+  %li
+    Press CTRL+C (Copy) to copy the code
+  %li
+    In the forum reply text area, press CTRL+V (Paste) and then click Submit
+  %li
+    Behold the Top 100 List
+    
+= text_area_tag "forumcode", @forum_code, :disabled => false, :style => "width:600px; height:300px;"

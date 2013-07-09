@@ -1,0 +1,173 @@
+- title "Top 100 List"
+%h1
+  Top 100 List
+
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Alliance Name
+      %td
+        = h @starguard.alliance
+    %tr
+      %td.main-column
+        Prepared By
+      %td
+        = link_to h(@starguard.user.username), @starguard.user
+    %tr
+      %td.main-column
+        Date Prepared (UTC)
+      %td
+        = h @starguard.created_at.to_s(:long)
+    %tr
+      %td.main-column
+        Google Map Center Point Latitude
+      %td
+        = h @starguard.center_latitude
+    %tr
+      %td.main-column
+        Google Map Center Point Longitude
+      %td
+        = h @starguard.center_longitude
+    %tr
+      %td.main-column
+        Nation Count
+      %td
+        = h @rankings.count
+    
+%h3
+  = link_to "Export to Forum Code", forum_code_starguards_path(:id => @starguard.id)  
+%h3
+  = link_to "Show By Ranking", show_by_ranking_starguards_path(:id => @starguard.id)    
+
+  
+- @coordinate_groups.each do |coordinate_group|
+  - unless coordinate_group.name == "Unassigned"
+    %h2
+      %br/
+      = coordinate_group.name
+    %h3
+      = coordinate_group.compliant_message(@starguard)
+    .index-table    
+      %table
+        %thead
+          %tr
+            %th{ :scope => "col" }
+              CLR
+            %th{ :scope => "col" }
+              Position
+            %th{ :scope => "col" }
+              Nation Name
+            %th{ :scope => "col" }
+              Ruler Name
+            %th{ :scope => "col" }
+              Strength
+            %th{ :scope => "col" }
+              Coordinates
+            %th{ :scope => "col" }
+              MSG  
+        %tbody
+          - coordinate_group.master_coordinates.each do |mc|
+            - tr_class = "odd" if coordinate_group.master_coordinates.index(mc).odd?
+            %tr{ :class => tr_class }
+              %td{ :style => "background: #ededed" }
+                - if mc.nation and mc.nation.get_ranking(@starguard)
+                  = image_tag("nation_colors/#{mc.nation.get_ranking(@starguard).color}.png", :title => mc.nation.get_ranking(@starguard).color)
+              %td
+                %strong= mc.rank
+              %td
+                - if mc.nation
+                  = link_to h(mc.nation.name), "#{AppConfig.nation_url}#{mc.nation.cn_id}", :target => "_blank"
+              %td
+                - if mc.nation
+                  = link_to h(mc.nation.ruler), "#{AppConfig.message_url}#{mc.nation.cn_id}", :target => "_blank"
+                  - if mc.nation.npo_id
+                    %br/
+                    = link_to "NPO Forum PM", "#{AppConfig.npo_message_url}#{mc.nation.npo_id}", :target => "_blank"
+              %td
+                - if mc.nation and mc.nation.get_ranking(@starguard)
+                  = number_with_delimiter(mc.nation.get_ranking(@starguard).strength)
+              %td
+                %strong= "Lat:"
+                - if mc.nation and mc.nation.get_ranking(@starguard)
+                  - if Starguard.correct_coordinate(mc.latitude, mc.nation.get_ranking(@starguard).latitude)
+                    %span{ :style => "color: green; font-weight: bold" }
+                      = mc.nation.get_ranking(@starguard).latitude
+                  - else
+                    %span{ :style => "color: red; font-weight: bold" }
+                      = mc.nation.get_ranking(@starguard).latitude
+                %br/
+                %strong= "Long:"
+                - if mc.nation and mc.nation.get_ranking(@starguard)
+                  - if Starguard.correct_coordinate(mc.longitude, mc.nation.get_ranking(@starguard).longitude)
+                    %span{ :style => "color: green; font-weight: bold" }
+                      = mc.nation.get_ranking(@starguard).longitude
+                  - else
+                    %span{ :style => "color: red; font-weight: bold" }
+                      = mc.nation.get_ranking(@starguard).longitude
+              %td
+                - if mc.nation and mc.nation.get_ranking(@starguard)
+                  - unless Starguard.correct_coordinate(mc.longitude, mc.nation.get_ranking(@starguard).longitude) and Starguard.correct_coordinate(mc.latitude, mc.nation.get_ranking(@starguard).latitude)
+                    - if mc.nation.not_moving == true
+                      DNC
+                    - else
+                      - if mc.nation
+                        = link_to "Move", nation_message_starguards_path(:cn_id => mc.nation.cn_id), :target => "_blank"
+                  - else  
+                    - if mc.nation
+                      = link_to "Thank", nation_thanks_message_starguards_path(:cn_id => mc.nation.cn_id), :target => "_blank"
+        %tfoot
+          %tr
+            %th{ :scope => "row" }
+              Total
+            %td{ :colspan => 7 }
+              = "#{coordinate_group.master_coordinates.size} Coordinates"
+              
+%h2
+  %br/
+  Not Assigned
+.index-table    
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          CLR
+        %th{ :scope => "col" }
+          Nation Name
+        %th{ :scope => "col" }
+          Ruler Name
+        %th{ :scope => "col" }
+          Strength
+        %th{ :scope => "col" }
+          Coordinates
+    %tbody
+      - @not_assigned_nations.each do |nation|
+        - tr_class = "odd" if @not_assigned_nations.index(nation).odd?
+        %tr{ :class => tr_class }
+          %td{ :style => "background: #ededed" }
+            - if nation.get_ranking(@starguard)
+              = image_tag("nation_colors/#{nation.get_ranking(@starguard).color}.png", :title => nation.get_ranking(@starguard).color)
+          %td
+            = link_to h(nation.name), "#{AppConfig.nation_url}#{nation.cn_id}", :target => "_blank"
+          %td
+            = link_to h(nation.ruler), "#{AppConfig.message_url}#{nation.cn_id}", :target => "_blank"
+            - if nation.npo_id
+              %br/
+              = link_to "NPO Forum PM", "#{AppConfig.npo_message_url}#{nation.npo_id}", :target => "_blank"
+          %td
+            - if nation.get_ranking(@starguard)
+              = number_with_delimiter(nation.get_ranking(@starguard).strength)
+          %td
+            %strong= "Lat:"
+            - if nation.get_ranking(@starguard)  
+              = nation.get_ranking(@starguard).latitude
+            %br/
+            %strong= "Long:"
+            - if nation.get_ranking(@starguard)
+              = nation.get_ranking(@starguard).longitude
+    %tfoot
+      %tr
+        %th{ :scope => "row" }
+          Total
+        %td{ :colspan => 7 }
+          = "#{@not_assigned_nations.size} Nations"              

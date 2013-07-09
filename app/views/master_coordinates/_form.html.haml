@@ -1,0 +1,20 @@
+- form_for @master_coordinate do |f|
+  = f.error_messages
+  = f.hidden_field :user_id, :value => current_user.id
+  %div
+    = f.label :coordinate_group, "Coordinate Group"
+    = f.collection_select :coordinate_group_id, @coordinate_groups, :id, :name
+  %div
+    = f.label :latitude
+    = f.text_field :latitude
+  %div
+    = f.label :longitude
+    = f.text_field :longitude
+  %div
+    = f.label :nation_id, "Assigned To"
+    = f.collection_select :nation_id, @nations, :id, :name_and_ruler, :include_blank => "None"
+  %div
+    %label
+      &nbsp;
+    = f.submit "Update Coordinates", :id => "formbutton"
+    = link_to "Cancel", master_coordinates_path

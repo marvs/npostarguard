@@ -1,0 +1,78 @@
+- title "Listed Nations"
+%h1
+  Listed Nations
+%h3
+  This List is automatically updated once a Top 100 list is saved.
+  
+- form_for @search do |f|
+  %fieldset
+    %legend
+      Search Listed Nations
+    %div
+      = f.label "Nation Name", "Nation Name"
+      = f.text_field :name_like
+    %div
+      = f.label "CN ID", "CN ID"
+      = f.text_field :cn_id_like
+    %div
+      = f.label "Ruler"
+      = f.text_field :ruler_like
+    %div
+      = f.label "Alliance"
+      = f.text_field :alliance_like
+    %div
+      %label 
+        &nbsp;
+      = f.submit "Search", :id => "formbutton"
+      = link_to "Clear", nations_path
+
+%h4
+  Nations that are 
+  %em
+    italized 
+  and marked with an asterisk (*) are nations who do not want to move their coordinates.
+      
+.index-table
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Nation Name
+        %th{ :scope => "col" } 
+          CN ID
+        %th{ :scope => "col" } 
+          Ruler
+        %th{ :scope => "col" } 
+          Alliance
+        %th{ :scope => "col" } 
+          NPO ID
+        %th{ :scope => "col", :colspan => 3 }
+          Actions
+    %tbody
+      - if @nations.empty?
+        %tr
+          %td{ :colspan => 8 }
+            There are no Listed Nations found
+      - else
+        - @nations.each do |nation|
+          - tr_class = "odd" if @nations.index(nation).odd?
+          %tr{ :class => tr_class }
+            %td
+              - if nation.not_moving == true
+                %em
+                  = "#{h nation.name}*"
+              - else
+                = h nation.name
+            %td= h nation.cn_id
+            %td= h nation.ruler
+            %td= h nation.alliance
+            %td= h nation.npo_id
+            %td= link_to image_tag("icons/eye.png", :title => 'Show Details'), nation
+            %td= link_to image_tag("icons/edit.png", :title => 'Edit Details'), edit_nation_path(nation)
+            - if permitted_to?(:destroy, nation)
+              %td= link_to image_tag("icons/delete.png", :title => 'Delete Nation Record'), nation, :confirm => "Are you sure you want to remove the Nation #{nation.name} from the Records?", :method => :delete
+          
+.digg_pagination
+  .page_info
+    = page_entries_info @nations
+  = will_paginate @nations

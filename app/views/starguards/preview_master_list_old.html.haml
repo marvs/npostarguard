@@ -1,0 +1,103 @@
+%h1
+  Alliance Map Data Preview
+
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Alliance Name
+      %td
+        - if @alliance
+          = h @alliance
+        - else
+          Alliance Name not detected in Input!
+    %tr
+      %td.main-column
+        Prepared By
+      %td
+        = link_to h(@user.username), @user
+    %tr
+      %td.main-column
+        Google Map Center Point Latitude
+      %td
+        - if @center
+          = @center[:latitude]
+        - else
+          Center point not detected in Input! 
+    %tr
+      %td.main-column
+        Google Map Center Point Longitude
+      %td
+        - if @center
+          = @center[:longitude]
+        - else
+          Center point not detected in Input!
+    %tr
+      %td.main-column
+        Nation Count
+      %td
+        - if @data_count
+          = @data_count
+        - else
+          Invalid Data!
+
+- if permitted_to? :create and @alliance == "New Pacific Order"
+  - unless @data.empty?
+    You may save this data in the Master List. Please enter your notes in the field below.
+    %br/
+    %strong Because of the high volume of data, this process may take a while to complete.
+    - form_for @starguard do |f|
+      %p 
+        %strong Enter your notes here:
+        = f.text_field :notes
+        = f.hidden_field :user_id, :value => @user.id
+        = f.hidden_field :alliance, :value => @alliance
+        - if @center
+          = f.hidden_field :center_latitude, :value => @center[:latitude]
+          = f.hidden_field :center_longitude, :value => @center[:longitude]
+        = hidden_field :html, :input, :value => @html_input
+        = f.submit "Save as Master List", :id => "formbutton"
+          
+.index-table    
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          CLR
+        %th{ :scope => "col" }
+          Rank
+        %th{ :scope => "col" }
+          Nation Name
+        %th{ :scope => "col" }
+          Ruler Name
+        %th{ :scope => "col" }
+          Strength
+        %th{ :scope => "col" }
+          Coordinates
+    %tbody
+      - @data.each do |data|
+        - tr_class = "odd" if @data.index(data).odd?
+        %tr{ :class => tr_class }
+          %td{ :style => "background: #ededed" }
+            = image_tag("nation_colors/#{data[:color]}.png", :title => data[:color])
+          %td
+            %strong= @data.index(data) + 1
+          %td
+            = link_to h(data[:nation_name]), "#{AppConfig.nation_url}#{data[:nation_id]}", :target => "_blank"
+          %td
+            = link_to h(data[:ruler_name]), "#{AppConfig.message_url}#{data[:nation_id]}", :target => "_blank"
+          %td
+            = data[:strength]
+          %td
+            %strong= "Lat:"
+            = data[:latitude]
+            %br/
+            %strong= "Long:"
+            = data[:longitude]
+    %tfoot
+      %tr
+        %th{ :scope => "row" }
+          Total
+        %td{ :colspan => 7 }
+          = "#{@data_count} Nations"
+  

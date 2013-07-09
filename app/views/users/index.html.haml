@@ -1,0 +1,55 @@
+- title "Users"
+%h1
+  Users Master List
+  
+- form_for @search do |f|
+  %fieldset
+    %legend
+      Search User List
+    %div
+      = f.label "Username", "Username"
+      = f.text_field :username_like
+    %div
+      = f.label "Roles", "Designation"
+      = f.collection_select :roles_id_equals, @roles, :id, :name, :include_blank => "All"
+    %div
+      %label 
+        &nbsp;
+      = f.submit "Search", :id => "formbutton"
+      = link_to "Clear", users_path      
+  
+.index-table
+  %table
+    %thead
+      %tr
+        %th{ :scope => "col" }
+          Username
+        %th{ :scope => "col" } 
+          Alias
+        %th{ :scope => "col" } 
+          Designations
+        %th{ :scope => "col", :colspan => 3 }
+          Actions
+    %tbody
+      - if @users.empty?
+        %tr
+          %td{ :colspan => 7 }
+            There are no Users found
+      - else
+        - @users.each do |user|
+          - tr_class = "odd" if @users.index(user).odd?
+          %tr{ :class => tr_class }
+            %td= h user.username
+            %td= h user.alias
+            %td
+              - user.roles.each do |role|
+                = h role.name
+                %br/
+            %td= link_to image_tag("icons/eye.png", :title => 'Show Details'), user
+            - if permitted_to?(:edit, user)
+              %td= link_to image_tag("icons/edit.png", :title => 'Edit Details'), edit_user_path(user)
+            - if permitted_to?(:destroy, user)
+              %td= link_to image_tag("icons/delete.png", :title => 'Delete User Account'), user, :confirm => "Are you sure you want to delete #{user.username}?", :method => :delete
+
+.digg_pagination
+  = will_paginate @starguards

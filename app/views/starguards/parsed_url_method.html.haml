@@ -1,0 +1,32 @@
+%h1
+  Parsed URL Method
+%h2
+  Instructions:
+%ol
+  %li
+    Log-in to 
+    = link_to "CyberNations", "http://www.cybernations.net/login.asp", :target => "_blank"
+  %li
+    Go to your Nation Map (e.g. http://www.cybernations.net/nation_drill_display_map.asp?Nation_ID=XXXXXX)
+    %br/
+    = image_tag("starguard_guide/nation_map_link.png")
+  %li  
+    In your browser, select "View" in the menu and press "View Source" or "Source" to view the HTML. For Firefox, you can press CTRL+U to view the HTML source.
+  %li
+    Press CTRL+A (Select All) and then CTRL+C (Copy) to copy the entire HTML source.
+  %li
+    Put your cursor inside the text box below. Press CTRL+V (Paste) to paste the HTML source in the text box.
+  %li
+    Press "Show My Link"
+    
+- form_for :map_scan, :url => parsed_url_method_starguards_path do |f|
+  %fieldset
+    %legend Paste the HTML code here:
+    %div
+      = f.label :html_input
+      = f.text_area :html_input, :value => (params[:map_scan][:html_input] if params[:map_scan])
+    %div
+      %label
+        &nbsp;
+      = f.submit "Show My Link", :id => "formbutton"
+      = link_to "Reset", parsed_url_method_starguards_path

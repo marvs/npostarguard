@@ -1,0 +1,39 @@
+#menu
+  %ul
+    %li{ :id => get_main_menu_id("home") }
+      = link_to "Home", root_path
+    - if permitted_to?( :index, :starguards )
+      %li{ :id => get_main_menu_id("starguards") }
+        = link_to "Star Guard", starguards_path
+    - if permitted_to?( :index, :nations )
+      %li{ :id => get_main_menu_id("nations") }
+        = link_to "Nations", nations_path
+    - if permitted_to?( :index, :users )
+      %li{ :id => get_main_menu_id("users") }
+        = link_to "Users", users_path
+      
+#search
+  #greeting
+    - if current_user
+      %p
+        %strong
+          = image_tag("icons/user.png")
+          = link_to h(current_user.username), current_user
+        &nbsp;&nbsp;&nbsp;
+        = image_tag("icons/power_off.png")  
+        = link_to "Logout", logout_path
+    - else
+      %p
+        %strong
+          = image_tag("icons/power_on.png")  
+          = link_to "Log In", login_path
+          -# if permitted_to?( :new, :users)
+          - if false
+            &nbsp;&nbsp;&nbsp;
+            = image_tag("icons/user.png")
+            = link_to "Register", signup_path
+
+  -# %form{ :method => "get", :action => "" }
+  -#  %fieldset
+  -#    = text_field :search, :text, :id => "search-text"
+  -#    = submit_tag "Search", :id => "search-submit"

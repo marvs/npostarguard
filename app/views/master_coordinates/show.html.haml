@@ -1,0 +1,18 @@
+- title "Master Coordinates"
+
+%p
+  %strong Rank:
+  =h @master_coordinates.rank
+%p
+  %strong Latitude:
+  =h @master_coordinates.latitude
+%p
+  %strong Longitude:
+  =h @master_coordinates.longitude
+
+%p
+  = link_to "Edit", edit_master_coordinates_path(@master_coordinates)
+  |
+  = link_to "Destroy", @master_coordinates, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", master_coordinates_path

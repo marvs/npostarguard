@@ -1,0 +1,3858 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="Window-target" content="_top" />
+<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;sensor=false&amp;key=ABQIAAAAQpiA_mSUPTtx989SOA_cqxQUbKRsxEr5HWq648QG6J5HPXuJ8hQeBxX39VAlA_htuj56kKr6UVzGFw" type="text/javascript"></script>
+
+</head>
+<html>
+<head>
+
+<title>Cyber Nations, An online nation simulation game</title>
+
+<META NAME="Description" CONTENT="Cyber Nation is a free online nation simulation game. Interact with other players while you build and defend your empire.">
+<META NAME="Keywords" CONTENT="government simulators, geo-political simulators, political simulators, google map game, nation simulator, political simulator, country game, build a nation, nation building game, nation creation, internet game, free internet games, online games, multiplayer games, interactive games, web games">
+<META HTTP-EQUIV=Content-Type CONTENT="text/html; charset=iso-8859-1">
+<META name="Copyright" content="Copyright © 2006 Cyber Nations. All Rights Reserved.">
+<meta HTTP-EQUIV="reply-to" CONTENT="webmaster@cybernations.net">
+<meta NAME="robots" CONTENT="index, follow">
+<link href="css.css" rel="stylesheet" type="text/css">
+
+<style>
+v\:* { behavior: url(#default#VML); }
+</style>
+
+<style fprolloverstyle>A:hover {color: #FF0000; font-weight: regular}</style>
+ 
+</head>
+<body text="#000000" bgcolor="#FFFFFF" topmargin="0">
+<div align="center">
+<table cellSpacing="0" cellPadding="4" border="0" id="table1" width="760">
+<tr>
+<td vAlign="top" align="middle">
+<table border="0" width="100%" id="table25" cellspacing="0" bordercolor="#000080" cellpadding="0">
+<tr>
+<td width="2%" valign="top">&nbsp;</td>
+<td width="70%">
+<a href="default.asp" name="pagetop">
+<img border="0" src="images/cn_logo.png" width="468" height="75" alt="Home"></a></td>
+<td align="right">
+<table border="0" width="100%" id="table51" cellspacing="0" cellpadding="3">
+<tr>
+<td align="right">
+
+<br>
+
+
+</td>
+</tr>
+<tr>
+<td align="right">
+&nbsp;</td>
+</tr>
+</table>
+
+<br>
+5/15/2010 2:07:07 PM</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div align="center">
+<table border="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111" height="406" width="760" id="table12">
+<tr>
+<td height="406" valign="top" align="center">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="table13">
+<tr>
+<td width="169" valign="top">
+
+<table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000080" id="table17" bgcolor="#FFFFFF" width="155">
+<tr>
+<td bgcolor="#000080" height="18">
+<p align="left"><font color="#FFFFFF"><b>&nbsp;:. Main Menu</b></font></td>
+</tr>
+<tr>
+<td align="center" width="150">
+<table border="0" cellpadding="2" style="border-collapse: collapse" width="100%" id="table18">
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"><a href="default.asp" title="Go to the home page">Home </a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top" bgcolor="#FFFFFF">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left" bgcolor="#FFFFFF">
+<a href="about.asp" title="Information about the game">About The Game</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a target="_blank" title="The official Cyber Nations community forums" href="http://www.cybernations.net/forums/">Forums</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="invite_friends.asp" title="Invite your friends to play">Invite Friends</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td width="121" height="19" align="left">
+<a href="inbox.asp" title="Sent and received messages">
+<font face="Verdana, Arial, Helvetica, sans-serif">My Messages</font></a></td>
+</tr>
+
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="saved_nations.asp" title="View your saved nations">My Saved Nations</a></td>
+</tr>
+
+
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<font face="Verdana, Arial, Helvetica, sans-serif">
+<a title="Edit your user information" href="myprofile.asp">
+My Profile</a></font></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"><font color="#333333">
+<a title="Logout of the game" href="/allNations_display_map_alliances.asp?MM_Logoutnow=1&VALUE=E286908B1A">
+<font face="Verdana, Arial, Helvetica, sans-serif">Logout</font>
+</a></font>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<br>
+
+<table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000080" id="table17" bgcolor="#FFFFFF" width="155">
+<tr>
+<td bgcolor="#000080" height="18">
+<p align="left"><font color="#FFFFFF"><b>&nbsp;:. Nation Menu</b></font></td>
+</tr>
+<tr>
+<td align="center" width="150">
+<table border="0" cellpadding="2" style="border-collapse: collapse" width="100%" id="table18">
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="nation_drill_display.asp?Nation_ID=309853" title="View your nation">View My Nation
+</a> </td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="allNations_display_myranking.asp" title="View your nation rankings">Nation Rankings</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="nation_drill_display_map.asp?Nation_ID=309853" title="View your nation map">My 
+Nation Map</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="government_position.asp?Nation_ID=309853" title="Specify your government position on various issues">
+My Government Position</a> </td>
+</tr>
+
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="teams.asp" title="Information about your team">Team Information Panel</a></td>
+</tr>
+
+
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">			
+<a href="militarydeploy.asp?Nation_ID=309853" title="Send military overseas or bring them home">Deploy Military </a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> <a href="nation_war_information.asp?Nation_ID=309853" title="Manage your wars and battles">War 
+&amp; Battles</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> <a href="event_information.asp?Nation_ID=309853" title="Manage events for your nation">Events</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> <a href="trade_information.asp?Nation_ID=309853" title="Manage your trade agreements">Trade Agreements</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="aid_information.asp?Nation_ID=309853" title="Manage your foreign aid agreements">
+Foreign Aid</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="spies_information.asp" title="View your spy operation reports">
+Spy Operations</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> <a href="nation_delete.asp" title="Remove your nation from the game">Delete My Nation</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> <a href="nation_edit.asp?Nation_ID=309853" title="Modify your nation">Edit My Nation</a></td>
+</tr>
+
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="offer_donation_nation.asp?Nation_ID=309853">Donate (for game bonuses)
+</a> </td>
+</tr>
+
+
+<tr>
+<td height="19" align="right" valign="top" colspan="2" bgcolor="#000080">
+<p align="left"><font color="#FFFFFF"><b>&nbsp;:. Transactions</b></font></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="collect_taxes.asp?Nation_ID=309853" title="Collect money from your citizens">Collect Taxes</a> </td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="pay_bills.asp?Nation_ID=309853" title="Pay bills on your purchases">Pay Bills</a> </td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="infrastructurebuysell.asp?Nation_ID=309853" title="Purchase infrastructure">Infrastructure</a> 
+</td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="improvements_purchase.asp?Nation_ID=309853" title="Purchase improvements">Improvements</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="landbuysell.asp?Nation_ID=309853" title="Purchase land">Land</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="military_purchase.asp?Nation_ID=309853" title="Various military purchase options">Military</a> </td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="technology_purchase.asp?Nation_ID=309853" title="Purchase technology">Technology</a> 
+</td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"> 
+<a href="national_wonders_purchase.asp?Nation_ID=309853" title="Purchase national wonders">Wonders</a> </td>
+</tr>
+
+<tr>
+<td height="19" align="right" valign="top" bordercolor="#000080" bgcolor="#000080" colspan="2">
+<p align="left"><font color="#FFFFFF"><b>&nbsp;:. World Menu</b></font></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"><a href="allNations_display.asp" title="View all nations in the game">Display All Nations</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left"><a href="allAlliances_display.asp" title="View all alliances in the game">Display All Alliances</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="all_aid_information.asp" title="View all foreign aid agreements">
+Foreign Aid Offers Across the Globe</a></td>
+</tr>
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="all_war_information.asp" title="View all wars in the game">Wars Across the Globe</a></td>
+</tr>
+
+<tr>
+<td height="19" width="18" align="right" valign="top">
+<img border="0" src="images/ico_arr_gray.gif" width="11" height="11"></td>
+<td height="19" align="left">
+<a href="stats.asp" title="Various game statistic screens">
+World Statistics, Tools & Links</a></td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+
+<br>
+
+
+
+</td>
+<td width="2%" valign="top" height="406">
+<td width="76%" valign="top" height="406">
+<table width="75%" border="0" cellpadding="0" cellspacing="0" id="table23">
+<tr>
+<td></td>
+</tr>
+</table>
+
+
+<table border="0" width="100%" id="table54" cellspacing="0" cellpadding="3" height="23">
+	<tr>
+		<td bgcolor="#FFFFFF" align="center">
+		
+		
+<script type="text/javascript"><!--
+google_ad_client = "pub-9338475562447655";
+/* Cyber Nations Small */
+google_ad_slot = "1338035458";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+		
+		
+		
+		</td>
+
+	</tr>
+	<tr>
+	</tr>
+</table>
+
+<body>
+</center></div></center></div></center></div>
+
+
+	<table border="0" width="90%" id="table3">
+		<tr>
+			<td align="left" valign="top">
+<p align="center">			
+<b>New Pacific Order</b>
+<br>
+
+<img style="padding-top: 3px; padding-bottom: 3;" src="images/flags/Custom3.jpg" title="New Pacific Order">
+
+<br>
+<a href="stats_alliance_stats_custom.asp?Alliance=New Pacific Order">
+<img src="images/alliance_statistic.gif" border="0" title="Alliance Statistics"></a>
+<a href="allNations_display_alliances.asp?Alliance=New Pacific Order">
+<img src="images/icon_rankings.png" border="0" title="Alliance Rankings"></a>
+<a href="search_wars.asp?searchstring=Declaring_Alliance%2CReceiving_Alliance&search=New Pacific Order&anyallexact=exact">
+<img src="images/icon_war.png" border="0" title="Search Wars"></a>
+<a href="search_aid.asp?searchstring=Declaring_Alliance%2CReceiving_Alliance&search=New Pacific Order&anyallexact=exact">
+<img src="images/icon_aid.png" border="0" title="Search Foreign Aid"></a>
+<a href="search_spies.asp?searchstring=Declaring_Alliance%2CReceiving_Alliance&search=New Pacific Order&anyallexact=exact">
+<img src="images/icon_spy.png" border="0" title="Search Exposed Spy Operations"></a>
+
+</p>
+<p align="left">
+
+			The map may take a few seconds to fully load. Only the top 100 
+			nations are displayed on the map. Zoom in on the map to view a closer look of each nation. Click on 
+			the markers for more information about each nation.<p>
+			<div id="map" style="width: 100%; height: 450px"></div>
+			
+			</center>
+				<noscript> 
+<font color="Red">***If you are seeing this line (for more than a few seconds), you have 
+JavaScript disabled (or an unsupported browser). In order to play Cyber Nations you must
+use a compatable browser and have Java Scripts turned on.***</font>
+</noscript> 
+<p align="center">
+<b><a href="stats.asp">Main World Statistics Screen</a></b></p>
+			</td>
+		</tr>
+	</table>
+</td>
+</tr>
+</table></div></font>
+</div>
+</td>
+</tr>
+</table></div></font></div>
+</td>
+</tr>
+</table>
+
+
+
+
+</font>
+</body>
+</html>
+<script type="text/javascript">
+//<![CDATA[
+
+var map = new GMap(document.getElementById("map"));
+map.addControl(new GLargeMapControl3D());
+map.addControl(new GHierarchicalMapTypeControl());
+map.addControl(new GScaleControl());
+map.addControl(new GOverviewMapControl());
+map.enableScrollWheelZoom();
+
+
+map.centerAndZoom(new GPoint(11.953125, 21.289374355860424), 16);
+
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-24.,59.521081));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=29470\">Kingdom of Dark</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=29470\">Kingdom of Dark</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 7/23/2006 12:56:30 PM<br>Strength: 133,373.165</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-56.25,-22.268764039073965));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=14036\">YTMND</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=14036\">Choker</a><br>Government Type: Monarchy<br> Religion: Buddhism<br>Created: 5/11/2006 5:18:11 PM<br>Strength: 81,757.403</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Green.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(25.3125,19.145168196205297));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=97698\">Itally</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=97698\">Guido</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 1/23/2007 7:07:21 PM<br>Strength: 78,442.182</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(5.101776123046875,-16.372850601795864));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=43636\">Legendary Rock Stars</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=43636\">Llednar Twem</a><br>Government Type: Revolutionary Government<br> Religion: Taoism<br>Created: 9/10/2006 12:22:10 AM<br>Strength: 76,290.057</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-60.5126953125,-33.65120829920497));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=134146\">Espa&#241;ola</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=134146\">Lenadius</a><br>Government Type: Revolutionary Government<br> Religion: Christianity<br>Created: 5/9/2007 7:39:02 PM<br>Strength: 70,865.252</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Blue.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(25.3125,63.860035895395306));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=84186\">SetiCrunchers</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=84186\">Seti Cruncher</a><br>Government Type: Republic<br> Religion: Baha'i Faith<br>Created: 12/24/2006 12:51:43 AM<br>Strength: 70,477.135</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(15.1171875,22.268764039073965));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=3782\">Canton</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=3782\">Letum</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 3/9/2006 11:41:35 AM<br>Strength: 69,607.679</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-11.07421875,-25.085598897064763));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=134177\">Soviet Land</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=134177\">platino</a><br>Government Type: Revolutionary Government<br> Religion: Christianity<br>Created: 5/9/2007 9:05:09 PM<br>Strength: 68,511.995</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Blue.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-57.65625,7.013667927566642));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=122697\">northrend</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=122697\">Kenny the Microwave</a><br>Government Type: Monarchy<br> Religion: Judaism<br>Created: 4/12/2007 8:08:24 AM<br>Strength: 65,523.752</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-80.75337409973144,22.222767018294465));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=22897\">Sludgeville</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=22897\">Sludgemonkey</a><br>Government Type: Monarchy<br> Religion: Voodoo<br>Created: 6/24/2006 10:05:12 PM<br>Strength: 62,302.700</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-45.703125,21.94304553343818));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=9440\">Lynxe</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=9440\">Aleksandrov</a><br>Government Type: Revolutionary Government<br> Religion: None<br>Created: 4/10/2006 11:32:02 PM<br>Strength: 61,696.227</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-15.205078125,35.53222622770337));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=185491\">Sophisticatia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=185491\">Sir Donald R Deamon</a><br>Government Type: Monarchy<br> Religion: Shinto<br>Created: 11/29/2007 7:20:03 AM<br>Strength: 58,438.523</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(71.3671875,51.23440735163458));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=60928\">The Borat Empire</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=60928\">Philosopher</a><br>Government Type: Capitalist<br> Religion: Islam<br>Created: 11/10/2006 12:46:50 PM<br>Strength: 57,706.698</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(14.172562,-40.441460));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=185450\">NeoTokyo II</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=185450\">Akira</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 11/29/2007 12:10:29 AM<br>Strength: 57,482.900</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(4.130516052246094,4.4761451096226255));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=10129\">Lemurstan</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=10129\">lemur</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 4/14/2006 2:47:36 PM<br>Strength: 56,268.097</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-24.332216,-14.135739));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=209755\">Wolverines</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=209755\">Grimmfang</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 3/3/2008 8:12:05 AM<br>Strength: 55,566.599</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(2.548828125,-11.156845275211767));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=5687\">Alcadia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=5687\">Slovotsky</a><br>Government Type: Revolutionary Government<br> Religion: Norse<br>Created: 3/21/2006 8:54:35 AM<br>Strength: 53,940.591</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-47.442394,-30.103086));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=16124\">Hamlin</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=16124\">Hatterson</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 5/21/2006 1:33:31 PM<br>Strength: 53,447.089</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-65.654296875,22.085639901650328));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=40435\">SchenaRah</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=40435\">SchenaRahII</a><br>Government Type: Monarchy<br> Religion: Mixed<br>Created: 8/28/2006 2:05:27 PM<br>Strength: 52,733.984</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Orange.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-92.14186191558838,46.76594130939476));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=153597\">Whammyland</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=153597\">Lord Chris</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 7/15/2007 9:56:15 PM<br>Strength: 52,370.677</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(79.8046875,24.206889622398023));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=25188\">Wirdian</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=25188\">WirWar</a><br>Government Type: Revolutionary Government<br> Religion: Shinto<br>Created: 7/8/2006 7:03:37 AM<br>Strength: 51,673.509</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-31.7230224609375,41.422134246213616));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=8776\">Izze</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=8776\">itigot</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 4/8/2006 4:22:03 AM<br>Strength: 49,477.484</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-100.49331665039062,31.891550612684366));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=61923\">Marlyn</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=61923\">Paul I</a><br>Government Type: Monarchy<br> Religion: Hinduism<br>Created: 11/12/2006 8:24:11 AM<br>Strength: 49,109.156</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(8.61328125,-37.579412513438385));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=90642\">Delray Beach</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=90642\">Arcades057</a><br>Government Type: Capitalist<br> Religion: Judaism<br>Created: 1/10/2007 11:31:40 AM<br>Strength: 48,700.429</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-37.81494140625,27.147144835991795));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=32420\">Polycratia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=32420\">Henkie</a><br>Government Type: Democracy<br> Religion: Mixed<br>Created: 7/31/2006 3:08:44 PM<br>Strength: 46,962.720</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-79.93405446410179,40.49572986856389));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=48791\">Tathren</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=48791\">The Tyrant</a><br>Government Type: Capitalist<br> Religion: Christianity<br>Created: 9/28/2006 5:13:07 PM<br>Strength: 46,055.668</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-47.45458,1.01687));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=23236\">The Roman Empire</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=23236\">RedXIII</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 6/26/2006 3:03:26 PM<br>Strength: 45,889.502</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-60.46875,22.59372606392931));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=59132\">Poverbia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=59132\">FreezerBite</a><br>Government Type: Monarchy<br> Religion: Sikhism<br>Created: 11/5/2006 9:26:24 AM<br>Strength: 45,607.167</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-1.307373046875,-30.10711788709237));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=152802\">Suttonia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=152802\">eclipse363</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 7/9/2007 11:35:32 AM<br>Strength: 44,631.555</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-1.421406,1.01687));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=84844\">Urth.</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=84844\">Lord Strider</a><br>Government Type: Revolutionary Government<br> Religion: Mixed<br>Created: 12/26/2006 8:56:28 AM<br>Strength: 44,479.500</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-70.3125,22.59372606392931));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=110094\">Asberdine</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=110094\">Xylez</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 2/20/2007 7:11:21 AM<br>Strength: 44,254.792</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(0.491339,2.51217));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=51090\">m0n3yland</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=51090\">m0n3yman</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 10/7/2006 7:14:54 PM<br>Strength: 42,966.088</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(94.39453125,80.35699541661764));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=98778\">Soviet Arctic States</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=98778\">Tsar Kalashnikov</a><br>Government Type: Democracy<br> Religion: Sikhism<br>Created: 1/25/2007 10:20:24 PM<br>Strength: 42,262.641</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-57.272316,-37.5968));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=21424\">Ardenchestia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=21424\">John Edward</a><br>Government Type: Revolutionary Government<br> Religion: Christianity<br>Created: 6/15/2006 9:34:38 PM<br>Strength: 41,962.380</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-55.546875,20.632784250388028));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=103152\">Empire of Ice</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=103152\">Emperor Ice</a><br>Government Type: Capitalist<br> Religion: Sikhism<br>Created: 2/3/2007 5:30:37 PM<br>Strength: 41,954.177</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-19.599609375,48.22467264956519));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=139927\">Jedburgh</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=139927\">Avenger</a><br>Government Type: Monarchy<br> Religion: Confucianism<br>Created: 5/29/2007 6:46:49 PM<br>Strength: 41,806.951</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-13.41130,31.394672));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=46507\">Malone</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=46507\">Millionario</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 9/19/2006 1:43:17 PM<br>Strength: 41,607.784</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-0.0423,22.22273));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=222456\">Faerun Toril</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=222456\">Supreme Azn Lord</a><br>Government Type: Democracy<br> Religion: Shinto<br>Created: 4/22/2008 12:20:58 PM<br>Strength: 40,743.149</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-22.236328125,-16.135538853953427));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=132119\">ROMA CAPUT MUNDI</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=132119\">ALEXit</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 5/4/2007 12:33:52 PM<br>Strength: 40,475.361</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-9.502711,22.155525));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=54378\">The Global Community</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=54378\">Alexander Castille</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 10/19/2006 11:31:15 PM<br>Strength: 39,820.165</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint( -17.172655,-19.273994));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=123111\">Mahdi</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=123111\">Shiite</a><br>Government Type: Monarchy<br> Religion: Mixed<br>Created: 4/16/2007 9:54:38 PM<br>Strength: 38,786.963</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-55.02871,22.22273));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=10578\">stangerites</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=10578\">Stanger</a><br>Government Type: Democracy<br> Religion: Buddhism<br>Created: 4/17/2006 5:31:06 PM<br>Strength: 38,271.971</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(116.4111328125,39.85915479295669));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=166932\">Neo Triyunica</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=166932\">Triyun</a><br>Government Type: Capitalist<br> Religion: Confucianism<br>Created: 9/23/2007 9:22:09 PM<br>Strength: 38,048.706</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-6.413837671279907,53.27518064682843));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=114087\">smelfdonia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=114087\">smelf1</a><br>Government Type: Monarchy<br> Religion: Mixed<br>Created: 3/1/2007 8:53:14 AM<br>Strength: 38,035.406</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(11.3818359375,-33.578014746143985));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=5394\">Aryan Alliance</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=5394\">lordtyrion</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 3/19/2006 6:58:57 PM<br>Strength: 38,030.167</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-37.12285101413727,-23.112252282512692));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=187805\">Khashoggi</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=187805\">Lord Black</a><br>Government Type: Democracy<br> Religion: None<br>Created: 12/8/2007 5:34:48 AM<br>Strength: 37,998.321</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-75.9843635559082,41.007754892144106));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=169033\">Wilsonovia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=169033\">Woodrow</a><br>Government Type: Democracy<br> Religion: Christianity<br>Created: 9/28/2007 10:24:04 PM<br>Strength: 37,806.940</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-49.47940,-5.255591));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=60799\">misfits</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=60799\">Maverick_1</a><br>Government Type: Democracy<br> Religion: Mixed<br>Created: 11/10/2006 7:22:49 AM<br>Strength: 37,600.200</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-80.22216796875,22.978623970384913));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=130391\">Aueir</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=130391\">ModestMark</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 4/30/2007 3:06:31 PM<br>Strength: 37,537.926</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-21.511515,53.12027));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=109304\">Klondike</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=109304\">LiTHiUM0480</a><br>Government Type: Monarchy<br> Religion: Christianity<br>Created: 2/18/2007 4:21:06 PM<br>Strength: 37,528.639</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-53.4375,4.565473550710291));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=30258\">Twilight Renegades</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=30258\">Elendil</a><br>Government Type: Capitalist<br> Religion: Buddhism<br>Created: 7/25/2006 9:50:49 AM<br>Strength: 37,366.507</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(29.564208984375,22.22427665929108));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=70261\">Cerule</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=70261\">kriegsdrachen</a><br>Government Type: Revolutionary Government<br> Religion: Norse<br>Created: 11/27/2006 12:58:31 PM<br>Strength: 36,963.893</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-75.234375,19.31114335506464));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=18453\">soviet new france</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=18453\">sable</a><br>Government Type: Revolutionary Government<br> Religion: Norse<br>Created: 5/30/2006 4:14:51 PM<br>Strength: 36,712.816</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-27.05108642578125,53.12019924247865));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=191280\">Emerald Knights</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=191280\">Tojamn</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 12/21/2007 12:09:41 AM<br>Strength: 36,701.029</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Purple.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(28.125,52.482780222078205));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=211797\">Illithien</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=211797\">Hodges</a><br>Government Type: Monarchy<br> Religion: Norse<br>Created: 3/11/2008 10:19:05 AM<br>Strength: 36,695.754</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-122.51953125,37.78808138412046));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=18725\">Vahalahala</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=18725\">slayer2992</a><br>Government Type: Monarchy<br> Religion: None<br>Created: 5/31/2006 6:03:18 PM<br>Strength: 36,421.182</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(114.19027984142303,22.305874857735034));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=225690\">Chinky Robots Land</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=225690\">Google the Great</a><br>Government Type: Capitalist<br> Religion: Confucianism<br>Created: 5/4/2008 11:14:58 AM<br>Strength: 36,109.534</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(9.755859375,9.102096738726456));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=130334\">NorrisLand</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=130334\">Chewbacca</a><br>Government Type: Monarchy<br> Religion: Mixed<br>Created: 4/30/2007 12:56:24 PM<br>Strength: 36,042.057</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-13.51318359375,31.37239910488052));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=175356\">Finding Forever</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=175356\">stiggy</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 10/23/2007 1:14:58 AM<br>Strength: 35,722.318</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-21.73095703125,65.21068278245275));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=489\">Hvamsfjordhur</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=489\">Prij</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 1/25/2006<br>Strength: 35,674.563</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-47.109375,-5.615985819155327));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=194711\">Inertia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=194711\">Wentworth the Brave</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 1/5/2008 11:40:58 AM<br>Strength: 35,613.512</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-123.310546875,49.61070993807422));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=169382\">Csdia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=169382\">Moriar</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 9/30/2007 12:29:50 AM<br>Strength: 35,404.108</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-33.24188232421875,35.576916524038616));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=157119\">nameless land</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=157119\">silentkiller</a><br>Government Type: Democracy<br> Religion: Voodoo<br>Created: 7/26/2007 12:33:36 PM<br>Strength: 35,346.428</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-0.06591796875,21.759499730719817));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=182559\">Kaito</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=182559\">DeMoNiX</a><br>Government Type: Monarchy<br> Religion: Confucianism<br>Created: 11/17/2007 8:35:50 PM<br>Strength: 35,236.912</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-42.462046,-26.534355));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=38931\">Nevindia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=38931\">yohon</a><br>Government Type: Monarchy<br> Religion: Confucianism<br>Created: 8/22/2006 1:10:54 PM<br>Strength: 35,041.917</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(7.183933,-22.32868));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=18636\">Straylight</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=18636\">Boss Case</a><br>Government Type: Democracy<br> Religion: Hinduism<br>Created: 5/31/2006 12:00:33 PM<br>Strength: 35,015.403</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-58.65217,-28.322762));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=3059\">Bakunin's Dream</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=3059\">Comrade Gabriel</a><br>Government Type: Democracy<br> Religion: None<br>Created: 2/25/2006 11:18:28 PM<br>Strength: 34,953.120</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(123.91960144042969,41.87723019276536));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=241524\">Fushun City State</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=241524\">Sarai</a><br>Government Type: Capitalist<br> Religion: Buddhism<br>Created: 6/29/2008 3:15:47 AM<br>Strength: 34,815.842</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-33.331811,35.544963));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=132439\">Magusland</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=132439\">Magus Rules</a><br>Government Type: Monarchy<br> Religion: Mixed<br>Created: 5/5/2007 7:02:32 AM<br>Strength: 34,483.304</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(18.221717,14.334597));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=19959\">NewHeavens</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=19959\">Elegarth</a><br>Government Type: Capitalist<br> Religion: Christianity<br>Created: 6/6/2006 7:23:59 PM<br>Strength: 34,182.378</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-86.923828125,35.50651802802079));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=52812\">Jasmines Jewels</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=52812\">Jasmines Jewels</a><br>Government Type: Capitalist<br> Religion: Sikhism<br>Created: 10/14/2006 11:59:01 AM<br>Strength: 33,933.032</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-86.1328125,-80.98368830825943));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=576\">Mandalore</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=576\">Mandalore</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 1/27/2006<br>Strength: 33,928.812</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-63.16868,-40.441460));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=70281\">Nekonia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=70281\">neko_antoniou</a><br>Government Type: Revolutionary Government<br> Religion: Voodoo<br>Created: 11/27/2006 1:18:06 PM<br>Strength: 33,863.056</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-54.228515625,-16.55196172197251));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=35961\">Aleisyr</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=35961\">Malefic</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 8/11/2006 9:12:14 PM<br>Strength: 33,386.002</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-79.95480537414551,39.649913844162));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=256901\">Mountaineer</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=256901\">GurneyHalleck</a><br>Government Type: Federal Government<br> Religion: None<br>Created: 8/22/2008 12:59:16 AM<br>Strength: 33,325.581</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-107.578125,48.922499263758254));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=200882\">National Command</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=200882\">King of Dunes</a><br>Government Type: Monarchy<br> Religion: Voodoo<br>Created: 1/28/2008 10:51:06 AM<br>Strength: 33,158.467</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(29.561033248901367,22.222697494962403));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=10232\">Red Dwarf</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=10232\">smeghead</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 4/15/2006 4:35:45 AM<br>Strength: 33,065.773</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-82.34870910644531,29.649961918454615));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=163945\">Jahne</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=163945\">hahne59</a><br>Government Type: Capitalist<br> Religion: Mixed<br>Created: 9/4/2007 4:42:12 PM<br>Strength: 33,002.860</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(14.765625,77.76758238272801));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=134954\">Fort WallaWalla</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=134954\">Fortress</a><br>Government Type: Revolutionary Government<br> Religion: Christianity<br>Created: 5/11/2007 10:22:05 PM<br>Strength: 32,958.209</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(13.20556640625,-38.616870463929736));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=30849\">Thomlan</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=30849\">mchasal</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 7/27/2006 1:52:19 AM<br>Strength: 32,943.667</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-51.55780792236328,-11.164929187266674));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=195263\">Cyrene</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=195263\">AlbertSpeer</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 1/7/2008 4:37:21 PM<br>Strength: 32,546.391</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-74.0984058380127,41.862433883199955));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=161292\">Clockworks</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=161292\">AntiMMORPG</a><br>Government Type: Monarchy<br> Religion: Norse<br>Created: 8/12/2007 9:17:51 PM<br>Strength: 32,533.832</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-109.36271667480469,-27.096725720321217));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=233123\">Dorsai</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=233123\">Walt Schmidt</a><br>Government Type: Capitalist<br> Religion: Taoism<br>Created: 5/30/2008 7:05:26 PM<br>Strength: 32,523.344</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(12.2003173828125,42.232584749313325));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=13670\">Roman Republic</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=13670\">Roman</a><br>Government Type: Capitalist<br> Religion: Christianity<br>Created: 5/9/2006 7:04:01 PM<br>Strength: 32,428.111</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Green.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(5.04313,22.22273));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=227240\">Caedas</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=227240\">KungFuHamster</a><br>Government Type: Democracy<br> Religion: Christianity<br>Created: 5/10/2008 2:42:42 PM<br>Strength: 32,386.222</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(4.21875,21.94304553343818));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=54131\">Naggaroth</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=54131\">blueon462</a><br>Government Type: Revolutionary Government<br> Religion: Confucianism<br>Created: 10/19/2006 3:06:23 AM<br>Strength: 32,370.442</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(114.08203125,23.16056330904831));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=119256\">Animus</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=119256\">PaulErly</a><br>Government Type: Communist<br> Religion: Buddhism<br>Created: 3/14/2007 8:18:37 PM<br>Strength: 32,370.169</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-35.948638916015625,29.841835102794132));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=113984\">Land O Chile</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=113984\">ChileRelleno</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 2/28/2007 11:36:26 PM<br>Strength: 32,349.339</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-29.1652,47.423767));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=64343\">Trilobyte Land</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=64343\">TrilobyteMan</a><br>Government Type: Capitalist<br> Religion: Christianity<br>Created: 11/17/2006 5:52:40 PM<br>Strength: 32,250.716</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(13.1396484375,42.19596877629178));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=115869\">Valerios</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=115869\">Captain Italia</a><br>Government Type: Capitalist<br> Religion: Taoism<br>Created: 3/5/2007 5:41:48 PM<br>Strength: 32,064.988</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-69.9609375,14.944784875088372));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=129140\">Gusandria</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=129140\">Weirdgus</a><br>Government Type: Capitalist<br> Religion: Christianity<br>Created: 4/27/2007 1:09:39 PM<br>Strength: 31,964.124</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-0.0439453125,22.105998799750566));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=153521\">Movia</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=153521\">MayorTim</a><br>Government Type: Capitalist<br> Religion: Norse<br>Created: 7/15/2007 5:35:31 PM<br>Strength: 31,803.335</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(51.339111328125,-44.43377984606822));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=110247\">Weaselland</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=110247\">tipsyweasel</a><br>Government Type: Capitalist<br> Religion: Taoism<br>Created: 2/20/2007 2:15:24 PM<br>Strength: 31,788.125</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-65.126953125,58.309488840677645));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=27129\">TinyVillages</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=27129\">TinyVillages</a><br>Government Type: Revolutionary Government<br> Religion: Judaism<br>Created: 7/17/2006 6:37:50 PM<br>Strength: 31,786.000</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(45,-7.710991655433217));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=192287\">Genosha</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=192287\">Erik Magnus</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 12/24/2007 9:27:45 PM<br>Strength: 31,452.808</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(7.03125,-22.593726063929296));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=17202\">Time and Space</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=17202\">Cybolt</a><br>Government Type: Capitalist<br> Religion: Mixed<br>Created: 5/25/2006 3:05:29 PM<br>Strength: 30,778.883</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(0.46263813972473144,-5.2556020150315605));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=170809\">Raman</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=170809\">drakenkorin</a><br>Government Type: Revolutionary Government<br> Religion: Hinduism<br>Created: 10/5/2007 12:01:03 AM<br>Strength: 30,655.574</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-84.40898895263672,42.24732685217714));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=86536\">Creative Anarchy</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=86536\">Loucifer</a><br>Government Type: Democracy<br> Religion: Norse<br>Created: 1/1/2007 7:31:53 AM<br>Strength: 30,424.734</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(54.66796875,72.60712040027555));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=210113\">Novaya Zemlya</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=210113\">Mikhail Moldavi</a><br>Government Type: Capitalist<br> Religion: None<br>Created: 3/4/2008 3:15:20 PM<br>Strength: 30,365.103</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+
+
+
+
+<script>
+var iconType = new GIcon();
+
+iconType.image = "assets/capital_Red.png";
+
+iconType.shadow = "assets/capital_shadow.png";
+iconType.iconSize = new GSize(25,25); 
+iconType.shadowSize=new GSize(33,25); 
+iconType.iconAnchor=new GPoint(17,25); 
+iconType.infoWindowAnchor = new GPoint(20, 5);
+// Place the icons randomly in the map viewport
+var bounds = map.getBoundsLatLng();
+var width = bounds.maxX - bounds.minX;
+var height = bounds.maxY - bounds.minY;
+createMarker(new GPoint(-35.331445,31.394672));
+// Creates one of our tiny markers at the given point
+function createMarker(point) {
+var marker = new GMarker(point, iconType);
+map.addOverlay(marker);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml("</center><font color='#000000'>Nation Name: <a href=\"nation_drill_display.asp?Nation_ID=214560\">Daveopolis</a><BR>Ruler: <a href=\"send_message.asp?Nation_ID=214560\">David14259</a><br>Government Type: Democracy<br> Religion: None<br>Created: 3/23/2008 10:46:54 AM<br>Strength: 30,352.279</font>");
+}); 
+
+
+}
+
+//]]>
+</script>
+
+<body>
+
+<div align="left">
+</table>
+</div>
+<p>
+
+<div align="center">
+	<br>
+	<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#000080" id="table17" bgcolor="#FFFFFF" width="760">
+		<tr>
+			<td>
+			<table border="0" width="760" id="table1" cellspacing="0" cellpadding="3" bordercolor="#000080">
+				<tr>
+					<td bgcolor="#000080" align="left" width="100%">
+							
+							
+							
+							
+							
+							
+<table border="0" width="100%" id="table18" cellspacing="0" cellpadding="0">
+<tr>
+
+<td align="left" width="50%">
+
+<a target="_blank" href="http://www.planetrealm.com/">
+<img border="0" src="images/planet.png" width="12" height="12" class="icon"></a>
+<a class="footer" target="_blank" href="http://www.planetrealm.com/" style="color:white; text-decoration: none; font: bold 11px arial">
+Planet Realm Online Gaming</a>
+
+</td>
+<td align="right" width="50%">
+
+</form>
+<form action="http://www.cybernations.net" method="get" id="dirsearch" style="display: inline; margin: 0;">						
+<select name="Action" onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+<option value="http://www.cybernations.net" selected>Cyber Nations Standard</option>
+<option value="http://tournament.cybernations.net">Cyber Nations Tournament</option>
+<option value="http://www.cybercitizens.com">Cyber Citizens</option>
+<option value="http://www.tourofgenerals.com">Tour of Generals</option>
+</select>
+</form>	
+
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" style="border-collapse: collapse" width="760" bordercolor="#669966">
+<tr>
+<td align="center" valign="top">
+<p align="left">
+
+
+
+Copyright © 2006 - 2010 Cyber Nations. All Rights Reserved<font color="#808080">.
+</font>Beta 2.1</p></td>
+<td width="225" align="center" valign="top">
+<p align="right">
+<a href="default.asp">Home</a> |
+<a target="_blank" href="http://www.cybernations.net/forums/">
+Forums</a> | <a href="terms.asp">Terms</a> | <a href="stats.asp">Links</a></td>
+</tr>
+</table>
+</div></center>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-764032-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

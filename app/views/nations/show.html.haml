@@ -1,0 +1,89 @@
+- content_for :head do
+  = GMap.header
+  = @map.to_html
+  
+- title "#{@nation.name} Nation"
+%h1
+  = "#{@nation.name} Nation Details"
+%h3
+  = link_to "Show Coordinate Helper", show_coords_nations_path(:cn_id => @nation.cn_id)
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Nation Name
+      %td
+        = h @nation.name
+    %tr
+      %td.main-column
+        CN ID
+      %td
+        = h @nation.cn_id  
+    %tr
+      %td.main-column
+        Ruler
+      %td
+        = h @nation.ruler
+    %tr
+      %td.main-column
+        Alliance
+      %td
+        = h @nation.alliance
+    %tr
+      %td.main-column
+        NPO ID (if NPO)
+      %td
+        = h @nation.npo_id
+    %tr
+      %td.main-column
+        Comment
+      %td
+        - if @nation.not_moving == true
+          This Nation cannot move its current coordinates.
+        - else
+          OK
+   
+   
+= @map.div(:width => 520, :height => 450)
+   
+- if @nation.latest_ranking
+  %h2
+    Latest Ranking  
+  .data-table
+    %table
+      %tr
+        %td.main-column
+          Rank
+        %td
+          = h @nation.latest_ranking.rank
+      %tr
+        %td.main-column
+          Team Color
+        %td
+          = image_tag("nation_colors/#{@nation.latest_ranking.color}.png", :title => @nation.latest_ranking.color) 
+      %tr
+        %td.main-column
+          Strength
+        %td
+          = h @nation.latest_ranking.strength 
+      %tr
+        %td.main-column
+          Latitude
+        %td
+          = h @nation.latest_ranking.latitude 
+      %tr
+        %td.main-column
+          Longitude
+        %td
+          = h @nation.latest_ranking.longitude
+      %tr
+        %td.main-column
+          Nation Messaged?
+        %td
+          = h @nation.latest_ranking.messaged_flag
+      %tr
+        %td.main-column
+          Messaged By
+        %td
+          = h @nation.latest_ranking.messaged_by.username if @nation.latest_ranking.messaged_by 
+          

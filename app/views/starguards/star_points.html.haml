@@ -1,0 +1,142 @@
+- content_for :head do
+  = GMap.header
+  = @map.to_html
+- title "Design Franco's Star!"
+%h1
+  Design Franco's Star!
+%h3
+  = @total_points 
+  Points Displayed
+= @map.div(:width => 520, :height => 450)
+%br/
+%h2
+  North Arm
+  = link_to_function "[Show/Hide]", "Effect.toggle('north-arm', 'slide')"
+#north-arm{ :style => "display:none" }
+  .index-table
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Point
+          %th{ :scope => "col" } 
+            Latitude
+          %th{ :scope => "col" } 
+            Longitude
+      %tbody
+        - (1..@arm_points*2).each do |rank_index|
+          %tr
+            %td
+              %strong
+                = rank_index
+            %td
+              = @rank_points[rank_index][:latitude]
+            %td
+              = @rank_points[rank_index][:longitude]
+            
+%h2
+  North-East Arm
+  = link_to_function "[Show/Hide]", "Effect.toggle('northeast-arm', 'slide')"
+#northeast-arm{ :style => "display:none" }
+  .index-table
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Point
+          %th{ :scope => "col" } 
+            Latitude
+          %th{ :scope => "col" } 
+            Longitude
+      %tbody
+        - (@arm_points*2+1..@arm_points*4).each do |rank_index|
+          %tr
+            %td
+              %strong
+                = rank_index
+            %td
+              = @rank_points[rank_index][:latitude]
+            %td
+              = @rank_points[rank_index][:longitude]
+
+%h2
+  South-East Arm
+  = link_to_function "[Show/Hide]", "Effect.toggle('southeast-arm', 'slide')"
+#southeast-arm{ :style => "display:none" }
+  .index-table
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Point
+          %th{ :scope => "col" } 
+            Latitude
+          %th{ :scope => "col" } 
+            Longitude
+      %tbody
+        - (@arm_points*4+1..@arm_points*6).each do |rank_index|
+          %tr
+            %td
+              %strong
+                = rank_index
+            %td
+              = @rank_points[rank_index][:latitude]
+            %td
+              = @rank_points[rank_index][:longitude]
+              
+%h2
+  South-West Arm
+  = link_to_function "[Show/Hide]", "Effect.toggle('southwest-arm', 'slide')"
+#southwest-arm{ :style => "display:none" }
+  .index-table
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Point
+          %th{ :scope => "col" } 
+            Latitude
+          %th{ :scope => "col" } 
+            Longitude
+      %tbody
+        - (@arm_points*6+1..@arm_points*8).each do |rank_index|
+          %tr
+            %td
+              %strong
+                = rank_index
+            %td
+              = @rank_points[rank_index][:latitude]
+            %td
+              = @rank_points[rank_index][:longitude]    
+
+%h2
+  North-West Arm
+  = link_to_function "[Show/Hide]", "Effect.toggle('northwest-arm', 'slide')"
+#northwest-arm{ :style => "display:none" }
+  .index-table
+    %table
+      %thead
+        %tr
+          %th{ :scope => "col" }
+            Point
+          %th{ :scope => "col" } 
+            Latitude
+          %th{ :scope => "col" } 
+            Longitude
+      %tbody
+        - (@arm_points*8+1..@arm_points*10).each do |rank_index|
+          %tr
+            %td
+              %strong
+                = rank_index
+            %td
+              = @rank_points[rank_index][:latitude]
+            %td
+              = @rank_points[rank_index][:longitude]               
+    
+%h2
+  Forum Code
+%h3
+  Copy and paste the forum code below to show your designed coordinates
+= text_area_tag "forumcode", @forum_code, :disabled => false, :style => "width:500px; height:200px;"
+    

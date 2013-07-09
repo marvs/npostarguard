@@ -1,0 +1,2 @@
+module MasterCoordinatesHelper
+end

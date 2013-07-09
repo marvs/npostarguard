@@ -1,0 +1,13 @@
+- title "Edit Master Coordinate"
+%h1
+  Edit Master Coordinate 
+
+.data-table
+  %table
+    %tr
+      %td.main-column
+        Rank
+      %td
+        = h @master_coordinate.rank  
+  
+= render :partial => 'form'

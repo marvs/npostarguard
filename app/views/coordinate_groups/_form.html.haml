@@ -1,0 +1,10 @@
+- form_for @coordinate_group do |f|
+  = f.error_messages
+  %div
+    = f.label :name
+    = f.text_field :name
+  %div
+    %label
+      &nbsp;
+    = f.submit "Submit", :id => "formbutton"
+    = link_to "Cancel", coordinate_groups_path
